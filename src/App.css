@@ -5,7 +5,7 @@ html {
 
 .parallax {
   /* The image used */
-  background-image: url("./img.jpg");
+  background-image: url('./img.jpg');
 
   /* Full height */
   height: 100%;
@@ -60,6 +60,23 @@ html {
   transition: opacity 0.3s ease;
 }
 
-.dropdown-item:hover{
-cursor: pointer;
+.dropdown-item:hover {
+  cursor: pointer;
+}
+
+.formRoot {
+  display: flex;
+}
+
+.modal-content {
+  position: absolute;
+  width: 850px;
+  margin-left: -175px;
+}
+.form-control {
+  margin-bottom: 8px;
+}
+
+.form-child-left {
+  width: 440px;
 }
